@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.food{
+    background-image:url('https://yummyindiankitchen.com/wp-content/uploads/2019/04/beef-stir-fry-recipe-beef-fry.jpg') ;
+    display: flex;
+    justify-content: space-between;
+    min-height: fit-content;
+    min-height: 100vh;
+    
+
+}
+
+.breakfast{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.dinner{
+    margin-top: 2rem;
+}
