@@ -118,6 +118,7 @@
 import React, { Component } from 'react';
 import './signup.css';
 import axios from 'axios';
+import {NavLink} from "react-router-dom";
 
 
 class Signup extends Component {
@@ -232,6 +233,9 @@ class Signup extends Component {
             />
           </div>
           <button>Sign Up</button>
+          <p>Do you have an account? <NavLink to="/Login" activeClassName="is-active">
+                Login
+            </NavLink> </p>
         </form>
       </div>
     );

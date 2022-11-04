@@ -5,7 +5,7 @@
 .wrapper{
     text-align: center;
     justify-content: center;
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0w8GYnhxX57ZmU8RIJr0UgfUYtuPc78rVQ&usqp=CAU') ;
+    background-color: rgb(232, 123, 123);
     min-height: 100vh;
     background-repeat:round;
     

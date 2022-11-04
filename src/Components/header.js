@@ -5,13 +5,17 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className='landing'>
+    
     <div className='links'>
-      
-        <NavLink to="/" activeClassName ="is-active" exact ={'true'}>Bresecose
+    <NavLink to="/" activeClassName="is-active1" exact = {true}>
+                Home
+            </NavLink>
+        <NavLink to="/Bresecose" activeClassName ="is-active">
+          Bresecose
         </NavLink>
-        <NavLink to="/Signup" activeClassName="is-active">
-                Signup
+        
+            <NavLink to="/Signup" activeClassName="is-active">
+              Signup
             </NavLink>
             <NavLink to="/Login" activeClassName="is-active">
                 Login
@@ -19,10 +23,8 @@ const Header = () => {
             
             
     </div>
-    <div>
-      <h1>WELCOME TO BRESECOSE FOODS</h1>
-    </div>
-    </div>
+    
+    
   )
 }
 

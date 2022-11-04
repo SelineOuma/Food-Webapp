@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.home{
+background-image:url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-cantaloupe-breakfast-bowls-pinterest-still001-1557182240.jpg');
+min-height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    color:rgb(240, 229, 229);
+    margin-top: 2rem;
+}
+p{
+    color:rgb(231, 236, 238);
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    color: aliceblue;
+    background-color: rgba(16, 16, 70, 0.251);
+    margin-top: 15rem;
+    min-height: 20vh;
+}

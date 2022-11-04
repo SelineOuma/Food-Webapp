@@ -14,32 +14,32 @@ class Bresecose extends Component {
   render(){
     return(
       <div className='food'>
-        <div className='breakfast'>
-          <NavLink to="/Breakfast" activeClassName="is-active">
-                Breakfast
+        <div className='pastries'>
+          <NavLink to="/Pastries" activeClassName="is-active">
+                Pastries
             </NavLink>
-            <h5>Cake</h5>
-            <h5>Bread</h5>
-            <h5>Mandazi</h5>
-            <h5>Chapati</h5>
+            <h5>Tart</h5>
+            <h5>Croissants</h5>
+            <h5>Pies</h5>
+            <h5>Scones</h5>
         </div>
-        <div className='lunch'>
-        <NavLink to="/Lunch" activeClassName="is-active">
-                Lunch
+        <div className='drinks'>
+        <NavLink to="/Drinks" activeClassName="is-active">
+              Drinks  
             </NavLink> 
-              <h5>Coffee</h5>
-              <h5>Tea</h5>
-              <h5>Cocoa</h5>
-              <h5>Fresh juice</h5>
+              <h5>Wine</h5>
+              <h5>Cocktail</h5>
+              <h5>Whiskey</h5>
+              <h5>Soft-drinks</h5>
         </div>
-        <div className='dinner'>
-        <NavLink to="/Dinner" activeClassName="is-active">
-                Dinner
+        <div className='meat'>
+        <NavLink to="/Meat" activeClassName="is-active">
+                Meat
             </NavLink> 
-            <h5>Pork</h5>
             <h5>Chicken</h5>
-            <h5>Beef</h5>
-            <h5>Fish</h5>
+            <h5>Fried-beef</h5>
+            <h5>Fried-fish</h5>
+            <h5>Pork</h5>
         </div>
        
 <div className='order'>

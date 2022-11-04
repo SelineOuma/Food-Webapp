@@ -3,20 +3,38 @@
 }
 
 .food{
-    background-image:url('https://yummyindiankitchen.com/wp-content/uploads/2019/04/beef-stir-fry-recipe-beef-fry.jpg') ;
+    background-image: url('https://www.eatingbirdfood.com/wp-content/uploads/2019/05/Tofu-Roundup-BLOG-IMAGE-min.jpg');
     display: flex;
     justify-content: space-between;
-    min-height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
+    
+    
     
 
 }
 
-.breakfast{
+.pastries{
     margin-left: 2rem;
+    margin-top: 2rem;
+    image-rendering: url('https://st.depositphotos.com/2504887/2978/i/450/depositphotos_29783977-stock-photo-pastry.jpg');
+    
+}
+
+.drinks{
     margin-top: 2rem;
 }
 
-.dinner{
+.meat{
     margin-top: 2rem;
+}
+
+h5{
+    font-size: 1rem;
+    color: aqua;
+}
+
+NavLink{
+    font-size: 2rem;
 }

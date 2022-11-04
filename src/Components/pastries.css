@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 250px;
+    width: 200px;
+    display: block;
+    
+}
+.pics{
+    display: flex;
+}
+
+.pasty{
+    background-color: aqua;
+    min-height: 100vh;
+}
+
+h4{
+    text-align: center;
+    justify-content: center;
+}
+
+h5{
+    margin-bottom: 3rem;
+}
+

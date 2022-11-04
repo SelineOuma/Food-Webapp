@@ -2,19 +2,6 @@
     box-sizing: border-box;
 }
 
-.landing{
-    background-image: url('https://media.istockphoto.com/photos/restaurant-plates-picture-id104704117?b=1&k=20&m=104704117&s=170667a&w=0&h=ey87ESdQq9Gv0r_hmTuVLpF9H1hb0S3xcOBVOSWcZiw=');
-    min-height: 1oovh;
-    min-height: fit-content;
-}
-h1{
-    font-family: sans-serif;
-    justify-content: center;
-    text-align: right;
-    color:rgb(228, 22, 22);
-    margin-right: 6rem;
-}
-
 .links{
     margin-left: 6rem;
     justify-content: space-between;
